@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #007b88;
+}
+.Signup {
+  width: 50%;
+  position: relative;
+  top: -90px;
+  left: 46px;
+  border: none;
+  background-color: #00f5e1;
+  padding: 13px 24px;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.loginbutton {
+  width: 55%;
+  border: none;
+  border-radius: 8px;
+  /* opacity: 0.6; */
+  background-color: #00f5e1;
+  padding: 12px 24px;
+  font-size: 16px;
+  transition: background-color 0.8s ease, color 0.8s ease;
+}
+.loginbutton:hover {
+  background-color: #00c0b6;
+  color: #fff;
+}
+
+.inputfield {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 30px;
+  background-color: #4d5974;
+}
+.inputfield::placeholder {
+  font-size: 16px;
+  color: #1d2c4f;
+  /* margin-right: 10px; */
+}
+
+.loginbutton span {
+  opacity: 0.7;
+}
+.my-custom-class {
+  position: relative;
+  top: 60px;
+  left: -100px;
+}
+.Signup a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+
+.containerstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #007b88;
+}
+.formstyle {
+  background-color: #1d2c4f;
+  height: 50%;
+  padding: 30px 0px;
+  border-radius: 8px;
+}
+.formstyle2 {
+  background-color: #1d2c4f;
+  height: 60%;
+  padding: 30px 60px;
+  border-radius: 8px;
+}
+.field {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+label {
+  font-size: 24px;
+  color: #ffffffa5;
+}
+.Registration {
+  margin-top: -24px;
+  color: #fff;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d2c4f;
+}
+
+.custom-table {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.custom-table th {
+  background-color: #1d2c4f;
+  color: #fff;
+}
+
+.custom-table td,
+.custom-table th {
+  padding: 10px;
+  text-align: center;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .custom-table {
+    font-size: 14px;
+  }
+}
